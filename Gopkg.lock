@@ -1,10 +1,22 @@
-memo = "b793b143db9dc49ef630454bb15d4d259e88d411827adac1838ec9fd6727f229"
+memo = "8020f787a84b0bd278cbfec2b41ba2cc73ccf8df6a4e251ebf8f4423093464f0"
 
 [[projects]]
   name = "github.com/AlekSi/pointer"
   packages = ["."]
   revision = "08a25bac605b3fcb6cc27f3917b2c2c87451963d"
   version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/Azure/azure-storage-go"
+  packages = ["."]
+  revision = "7c36d244fc8bf27bcf9785b0b37d6beef2949296"
+  version = "v0.1.0"
+
+[[projects]]
+  name = "github.com/Azure/go-autorest"
+  packages = ["autorest","autorest/adal","autorest/azure","autorest/date"]
+  revision = "58f6f26e200fa5dfb40c9cd1c83f3e2c860d779d"
+  version = "v8.0.0"
 
 [[projects]]
   branch = "master"
@@ -29,6 +41,12 @@ memo = "b793b143db9dc49ef630454bb15d4d259e88d411827adac1838ec9fd6727f229"
   packages = ["."]
   revision = "cdf719fac0dd208251aa828e687c2d5802053b51"
   version = "v1.0.10"
+
+[[projects]]
+  name = "github.com/dgrijalva/jwt-go"
+  packages = ["."]
+  revision = "d2709f9f1f31ebcda9651b03077758c1f3a0018c"
+  version = "v3.0.0"
 
 [[projects]]
   name = "github.com/gin-gonic/gin"
